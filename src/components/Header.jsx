@@ -4,10 +4,11 @@
 function Header() {
     
     return(
-        <>
-         <h1>Hello World im Kayla </h1>
-         <h2>Here's a little bit about me..</h2>
-        </>
+        <div>
+            <h1 className="header">Hello World I'm Kayla </h1>
+            <h2>Here's a little bit about me..</h2>
+         
+        </div>
     )
 
 }

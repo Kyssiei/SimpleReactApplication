@@ -1,20 +1,22 @@
 
-
-
 function Content() {
-    
-    return(
-        <>
-            <h2>My Top 3 Favorite Foods</h2>
+    return (
+        <div>
+            <p  className="content"> Favorite Foods  </p>
             <ul>
-                <li>Ethiopian Food</li>
                 <li>Hatian Food</li>
+                <li>Ethiopian Food</li>
                 <li>Indian Food</li>
             </ul>
-            
-        </>
-    )
-
+            <p>Random Facts</p>
+            <ul>
+                <li>My favorite color is pink</li>
+                <li>I love beach volleyball</li>
+                <li>I like to decorate</li>
+            </ul>
+           
+    </div>
+    );
 }
 
-export default Content
+  export default Content;
